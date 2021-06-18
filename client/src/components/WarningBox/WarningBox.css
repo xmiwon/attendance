@@ -1,0 +1,74 @@
+
+.warning-modal {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+   }
+
+
+
+.warning-container {
+    background-color: beige;
+
+} 
+.warning-section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.warning-container div div, .confirm-message-box {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.warning-container textarea {
+    max-height: 100px;
+    width: 100%;
+}
+
+.warning-message-box {
+    max-width: 500px;
+    white-space: pre-wrap;
+}
+.warning-message-box p {
+    background-color: gainsboro;
+}
+
+
+.buttons-box {
+    display: flex;
+    justify-content: center;
+  
+}
+.buttons-box Button {
+    width: 100%;
+    border-radius: 0;
+}
+
+.modal-close {
+    display: flex;
+    font-size: 35px;
+    color: gray;
+    justify-content: center;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.confirm-message-box p {
+    background-color: gray;
+    color:white;
+    padding: 10px;
+    width: fit-content;
+    max-width: 400px;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
